@@ -10,7 +10,7 @@ body{
     font-family: 'Roboto', sans-serif; 
     font-weight: 500;
 }
-h1, h2{
+h1, h2,.rrr{
     font-family: 'Bebas Neue', cursive;
     color: rgba(54, 57, 88, 1);
     font-size:40px;
@@ -108,4 +108,55 @@ p{
     float:right;
     margin-right: 10%;
     margin-top: 40px;
+}
+.contuct, .tx-al{
+    text-align: center;
+    
+}
+.contuct .ul{
+    text-decoration: underline;
+    color: #3C3C3C;
+    
+}
+.contuct{
+    padding-bottom: 100px;
+}
+#bottom{
+    background-color: rgba(190, 190, 190, 0.541);
+    padding-top: 30px;
+    height: 800px;
+}
+.in-box{
+    background:#666666;
+    width: 40%;
+    box-shadow: none;
+    border: none;
+    margin: 5px;
+    height: 30px;
+    color: #f30000;
+    font-weight: 600;
+    padding-left: 20px;
+    border-radius: 7px;
+    
+}
+#massage{
+    height: 60px; 
+}
+.sh{
+    box-shadow: none;
+}
+.rrr{
+    font-size: 20px;
+}
+.ttt{
+    font-size: 40px;
+}
+.footer{
+    width: 5%;
+    float:left;
+    margin-left: 2%;
+}
+.icon{
+    padding-left: 44%;
+    align-items: center;
 }
